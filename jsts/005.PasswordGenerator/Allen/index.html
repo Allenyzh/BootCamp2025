@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <link href="./styles.css" rel="stylesheet" />
     <style>
       .tab-switcher {
         width: 100%;
@@ -140,12 +141,12 @@
           style="height: 50px"
         >
           <span id="checkboxName1">Numbers</span>
-          <input switch type="checkbox" id="numbers" class="" />
+          <div id="numberCheckBtn"></div>
 
           <div class="w-25"></div>
 
           <span id="checkboxName2">Symbols</span>
-          <input switch type="checkbox" id="symbols" class="" />
+          <div id="symbolCheckBtn"></div>
         </div>
 
         <div class="py-2">
@@ -172,5 +173,5 @@
       passwordLength.value = rangeInput.value;
     });
   </script>
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 </html>
